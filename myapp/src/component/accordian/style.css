@@ -1,0 +1,27 @@
+.container{
+    max-width:50vh;
+    justify-self: center;
+}
+
+
+.itemRow{
+    display:grid;
+    /* justify-content: space-evenly; */
+    grid-template-columns: 20% 1fr 10%;
+    text-align: center;
+    align-items: center;
+    border:1px solid rgb(206, 206, 206);
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin:5px 5px;
+
+}
+
+
+.itemInfo{
+    grid-column:span 3;
+    border-top: 1px solid whitesmoke;
+    padding:5%;
+    text-align: start;
+}
+
