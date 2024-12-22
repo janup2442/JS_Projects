@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <div>
+        
         <Accordian/>
       </div>
     </>
@@ -13,3 +14,18 @@ function App() {
 }
 
 export default App
+
+
+function Header(){
+  const headStyle = {
+    
+  }
+  return(
+   
+   <>
+    <div>
+
+    </div>
+   </> 
+  )
+}
